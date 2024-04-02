@@ -47,7 +47,6 @@ export default function CustomSoftware(props) {
     const theme = useTheme();
     const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
     const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
-    // const matchesXS = useMediaQuery(theme.breakpoints.down("xs"));
 
     const documentOptions = {
         loop: true,
@@ -139,8 +138,6 @@ export default function CustomSoftware(props) {
                         </Typography>
                     </Grid>
                 </Grid>
-                {" "}
-                {/*-----Mid Icons Block-----*/}
                 <Hidden mdDown>
                     <Grid item className={classes.arrowContainer}>
                         <IconButton
@@ -154,6 +151,8 @@ export default function CustomSoftware(props) {
                     </Grid>
                 </Hidden>
             </Grid>
+            {" "}
+            {/*-----Mid Icons Block-----*/}
             <Grid
                 item
                 container

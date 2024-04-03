@@ -9,10 +9,10 @@ import Hidden from "@material-ui/core/Hidden";
 
 import backArrow from "../assets/backArrow.svg";
 import forwardArrow from "../assets/forwardArrow.svg";
-import analytics from "../assets/analytics.svg"
-import seo from "../assets/seo.svg"
-import outreach from "../assets/outreach.svg"
-import ecommerce from "../assets/ecommerce.svg"
+import analytics from "../assets/analytics.svg";
+import seo from "../assets/seo.svg";
+import outreach from "../assets/outreach.svg";
+import ecommerce from "../assets/ecommerce.svg";
 
 import CallToAction from "./ui/CallToAction";
 
@@ -83,7 +83,7 @@ export default function Websites(props) {
                         <Typography variant="body1" align={matchesMD ? "center" : undefined} paragraph>
                             From simply having your hours posted to having a full fledged online store,
                             making yourself as accessible as possible to users online drives growth and
-                            enables you to reach new customers
+                            enables you to reach new customers.
                         </Typography>
                     </Grid>
                 </Grid>
@@ -100,6 +100,8 @@ export default function Websites(props) {
                     </Grid>
                 </Hidden>
             </Grid>
+            {" "}
+            {/*-----Analytics Block-----*/}
             <Grid
                 item
                 container
@@ -134,6 +136,8 @@ export default function Websites(props) {
                     </Typography>
                 </Grid>
             </Grid>
+            {" "}
+            {/*-----E-Commerce Block-----*/}
             <Grid
                 item
                 container
@@ -168,6 +172,8 @@ export default function Websites(props) {
                     </Typography>
                 </Grid>
             </Grid>
+            {" "}
+            {/*-----Outreach Block-----*/}
             <Grid
                 item
                 container
@@ -200,6 +206,8 @@ export default function Websites(props) {
                     </Typography>
                 </Grid>
             </Grid>
+            {" "}
+            {/*-----Search Engine Block-----*/}
             <Grid
                 item
                 container

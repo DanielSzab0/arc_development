@@ -1,20 +1,19 @@
 import React from "react";
 import Lottie from "react-lottie";
-import {Link} from "react-router-dom";
 import {makeStyles, useTheme} from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 
-import vision from "../assets/vision.svg"
-import consultation from "../assets/consultationIcon.svg"
-import mockup from "../assets/mockupIcon.svg"
-import review from "../assets/reviewIcon.svg"
-import design from "../assets/designIcon.svg"
-import build from "../assets/buildIcon.svg"
-import launch from "../assets/launchIcon.svg"
-import maintain from "../assets/maintainIcon.svg"
-import iterate from "../assets/iterateIcon.svg"
+import vision from "../assets/vision.svg";
+import consultation from "../assets/consultationIcon.svg";
+import mockup from "../assets/mockupIcon.svg";
+import review from "../assets/reviewIcon.svg";
+import design from "../assets/designIcon.svg";
+import build from "../assets/buildIcon.svg";
+import launch from "../assets/launchIcon.svg";
+import maintain from "../assets/maintainIcon.svg";
+import iterate from "../assets/iterateIcon.svg";
 import technologyAnimation from "../animations/technologyAnimation/data.json";
 
 const useStyles = makeStyles(theme => ({

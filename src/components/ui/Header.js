@@ -309,7 +309,7 @@ export default function Header(props) {
                                 {route.name}
                             </ListItemText>
                         </ListItem>
-                    ))};
+                    ))}
                     <ListItem
                         onClick={() => {
                             setOpenDrawer(false);
